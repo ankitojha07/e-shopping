@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.navbar___link:hover{
+    color: rgb(255, 152, 152);
+}
