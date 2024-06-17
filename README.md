@@ -1,6 +1,9 @@
 # E-Commerce App in Next JS
 
 ## Preview
+
+{Live Preview](https://shop-by-choice.netlify.app/)
+
 ![image](e-shop-ss-1.png)
 
 ![image](e-shop-ss-2.png)
