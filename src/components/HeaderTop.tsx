@@ -1,15 +1,6 @@
 // src/components/Header.js
 import React from "react";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-  FaUser,
-  FaHeart,
-  FaShoppingBag,
-  FaSearch,
-} from "react-icons/fa";
+import { FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const HeaderTop = () => {
   return (

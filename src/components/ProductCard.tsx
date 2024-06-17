@@ -1,5 +1,6 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
 interface propsType {
@@ -17,6 +18,14 @@ const ProductCard: React.FC<propsType> = ({
   rating,
   price,
 }) => {
+  const [data, setData] = useState("");
+
+  const dataChange = () => {
+    setData("Added to cart successfully");
+  };
+
+  console.log(data);
+
   const generateRating = (rating: number) => {
     switch (rating) {
       case 1:
@@ -122,7 +131,10 @@ const ProductCard: React.FC<propsType> = ({
             ${parseInt(price) + 50}.00
           </del>
         </div>
-        <button className="bg-accent p-2 px-4 font-medium rounded-lg text-white">
+        <button
+          onClick={() => dataChange()}
+          className="bg-accent p-2 px-4 font-medium rounded-lg text-white"
+        >
           Add to Cart
         </button>
       </div>
