@@ -12,8 +12,8 @@ const Slides: React.FC<propsType> = ({ img, title, mainTitle, price }) => {
   return (
     <div className="outline-none border-none relative">
       <div className="absolute left-[30px] md:left-[70px] max-w-[250px] sm:max-w-[350px] top-[50%] -translate-y-[50%] space-y-2 lg:space-y-4 bg-[#ffffffa2] sm:bg-transparent p-4 sm:p-0 rounded-lg sm:rounded-none">
-        <h3 className="text-accent text-[24px] lg:text-[28px] ">{title}</h3>
-        <h2 className="text-blakish text-[26px] ms:text-[26px] lg:text-[40px] font-bold leading-[1.2] ">
+        <h3 className="text-accent text-xl lg:text-[28px] ">{title}</h3>
+        <h2 className="text-blakish text-xl md:text-3xl font-bold ">
           {mainTitle}
         </h2>
         <h3 className="text-[24px] text-gray-500 ">

@@ -7,6 +7,7 @@ import NavBar from "@/components/NavBar";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import MobileNavBar from "@/components/MobileNavBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
         <HeaderTop />
         <HeaderMain />
         <NavBar />
+        <MobileNavBar />
         {children}
       </body>
     </html>
