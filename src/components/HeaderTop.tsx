@@ -16,10 +16,15 @@ const HeaderTop = () => {
     <div className="w-full border-b">
       <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center py-2">
         <div className="hidden md:flex space-x-2 mb-2 sm:mb-0">
-          <FaFacebookF className="cursor-pointer" />
-          <FaTwitter className="cursor-pointer" />
-          <FaInstagram className="cursor-pointer" />
-          <FaLinkedinIn className="cursor-pointer" />
+          <a href="https://x.com/ankitojha_07" target="_blank">
+            <FaTwitter className="cursor-pointer" />
+          </a>
+          <a href="https://www.instagram.com/ankitojha_07/" target="_blank">
+            <FaInstagram className="cursor-pointer" />
+          </a>
+          <a href="https://www.linkedin.com/in/ankit0jha/" target="_blank">
+            <FaLinkedinIn className="cursor-pointer" />
+          </a>
         </div>
         <div className="hidden md:flex text-sm text-center">
           <span className="font-semibold">FREE SHIPPING</span> THIS WEEK ORDER

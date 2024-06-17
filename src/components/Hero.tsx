@@ -18,31 +18,31 @@ const Hero = () => {
   const slideShow = [
     {
       id: 0,
-      img: "/banner-1.jpg",
-      title: "Trending Items",
-      mainTitle: "Women's Latest Fashion Sale",
-      price: "12",
+      img: "/banner-1.png",
+      title: "Summer Sales",
+      mainTitle: "Women's Latest Summer Sale",
+      price: "199",
     },
     {
       id: 1,
-      img: "/banner-2.jpg",
+      img: "/banner-2.png",
       title: "Trending Items",
       mainTitle: "Women's Latest Fashion Sale",
       price: "12",
     },
     {
       id: 2,
-      img: "/banner-3.jpg",
-      title: "Trending Items",
-      mainTitle: "Women's Latest Fashion Sale",
-      price: "12",
+      img: "/banner-3.png",
+      title: "Trending Office Suits",
+      mainTitle: "Women's Latest Fashion Sale Official Works",
+      price: "178",
     },
     {
       id: 3,
-      img: "/banner-4.jpg",
+      img: "/banner-4.png",
       title: "Trending Items",
-      mainTitle: "Women's Latest Fashion Sale",
-      price: "12",
+      mainTitle: "Black Friday Sale Live",
+      price: "98",
     },
   ];
   return (

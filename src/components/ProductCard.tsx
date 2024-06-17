@@ -102,9 +102,15 @@ const ProductCard: React.FC<propsType> = ({
   };
 
   return (
-    <div className="px-4 border-gray-200 rounded-xl max-w-[400px] ">
+    <div className="px-4 border-gray-200 border p-4 rounded-xl max-w-[400px] ">
       <div>
-        <Image alt={title} src="" height={300} width={200} />
+        <Image
+          className="max-h-[300px]"
+          alt={title}
+          src={img}
+          height={300}
+          width={200}
+        />
       </div>
       <div className="space-y-2 py-2">
         <h2 className="font-medium uppercase text-accent">{title} </h2>
@@ -116,6 +122,9 @@ const ProductCard: React.FC<propsType> = ({
             ${parseInt(price) + 50}.00
           </del>
         </div>
+        <button className="bg-accent p-2 px-4 font-medium rounded-lg text-white">
+          Add to Cart
+        </button>
       </div>
     </div>
   );
